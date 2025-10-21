@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgb(41, 40, 40);
+}
+
+#nav h4{
+    color: white;
+    font-size: 300;
+}
+
+#center{
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* padding: 10px; */
+
+}
+
+#center h1{
+    color: #FE954B;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#center h5{
+    color: #F77B2F;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+#links button{
+    background-color: #0277ED;
+    color: whitesmoke;
+    padding: 13px 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
