@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Helvetica Now Display';
+    src: url('HelveticaNowDisplay-ExtBdIta.eot');
+    src: local('Helvetica Now Display ExtBd Ita'), local('HelveticaNowDisplay-ExtBdIta'),
+        url('HelveticaNowDisplay-ExtBdIta.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNowDisplay-ExtBdIta.woff2') format('woff2'),
+        url('HelveticaNowDisplay-ExtBdIta.woff') format('woff'),
+        url('HelveticaNowDisplay-ExtBdIta.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Now Display";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    padding: 30px 70px;
+}
+
+#nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+#main>h1{
+    font-size: 300px;
+    font-weight: 400;
+    padding-left: 70px;
+}
+
+#btmleft{
+    width: 300px;
+    position: absolute;
+    bottom: 8%;
+    left: 5.5%;
+}
+
+#btmleft h3{
+    font-size: 30px;
+}
+
+#btmleft p{
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+#btmleft h4{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#btmbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#btmbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+#main>img{
+    position: absolute;
+}
+
+#main #first{
+    height: 250px;
+    top: 65%;
+    left: 51%;
+}
+
+#main #second{
+    height: 220px;
+    top: 50%;
+    left: 38%;
+}
+
+#main #third{
+    height: 300px;
+    top: 40%;
+    left: 60%;
+}
